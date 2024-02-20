@@ -1,0 +1,29 @@
+.Main-div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 5.063vw;
+}
+@keyframes twinkling {
+    0% {
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+body{
+
+    background: rgb(1,34,70);
+background: linear-gradient(90deg, rgba(1,34,70,0.9915615904564951) 3%, rgba(88,9,121,1) 62%);
+}
+
+@media screen and (max-width:767px) {
+    .Main-div{
+        margin-top: 34.884vw;
+    }
+}
